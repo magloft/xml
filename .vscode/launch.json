@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "test",
+      "type": "pwa-node",
+      "request": "launch",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ts-node",
+      "args": ["--project=${workspaceFolder}/test/tsconfig.json", "test/test.ts"],
+      "cwd": "${workspaceRoot}",
+      "outputCapture": "std"
+    }
+  ]
+}
